@@ -4,9 +4,9 @@ This script demonstrates how to visualize multiple Y-axes datasets from various 
 Each example defines X and Y variables, color schemes, and plotting styles, all unified in one workflow for easy demonstration.
 
 ![Energy Consumption](images/1.png)
-![Oil and Gas Metrics](https://github.com/Nashat90/PolyY/images/2.png)
-![Weather Metrics](https://github.com/Nashat90/PolyY/images/3.png)
-![Combo Chart](https://github.com/Nashat90/PolyY/images/4.png)
+![Oil and Gas Metrics](images/2.png)
+![Weather Metrics](images/3.png)
+![Combo Chart](images/4.png)
 
 # Example 1: Energy Industry Data
 ```python
@@ -77,4 +77,5 @@ for i in range(4):
 figure.get_figure().update_layout(width=1500, height=800)
 
 ```
+
 
