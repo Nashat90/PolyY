@@ -1,5 +1,5 @@
 
-# MultiYPlot: A Flexible Multi Y-Axis (A  Plotly based Library)
+# PolyY: A Flexible Multi Y-Axis (A  Plotly based Library)
 
 MultiYPlot is a lightweight and intuitive Python library built on top of **Plotly** Graph Objects, designed to simplify the creation of multi–Y-axis interactive charts.With **PolyY**, you can easily visualize multiple datasets with different scales on the same figure — without losing clarity, interactivity, or control. The library provides a clean object-oriented interface to build, customize, and update complex figures in just a few lines of code.
 
@@ -85,6 +85,7 @@ figure.get_figure().update_layout(width=1500, height=800)
 
 ```
 ![Combo Chart](images/4.png)
+
 
 
 
