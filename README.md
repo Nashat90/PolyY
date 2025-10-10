@@ -1,21 +1,14 @@
 
 # MultiYPlot: A Flexible Multi Y-Axis (A  Plotly based Library)
 
-MultiYPlot is a lightweight and intuitive Python library built on top of Plotly Graph Objects, designed to simplify the creation of multi–Y-axis interactive charts.
-
-With MultiYPlot, you can easily visualize multiple datasets with different scales on the same figure — without losing clarity, interactivity, or control. The library provides a clean object-oriented interface to build, customize, and update complex figures in just a few lines of code.
+MultiYPlot is a lightweight and intuitive Python library built on top of **Plotly** Graph Objects, designed to simplify the creation of multi–Y-axis interactive charts.With **PolyY**, you can easily visualize multiple datasets with different scales on the same figure — without losing clarity, interactivity, or control. The library provides a clean object-oriented interface to build, customize, and update complex figures in just a few lines of code.
 
 #### Key Features
-
-🔹 Multi Y-Axis Support: Effortlessly plot multiple series with independent Y-axes while maintaining alignment and scale integrity.
-
-🔹 Built on Plotly Graph Objects: Leverages Plotly’s powerful graph_objects module for high-quality, interactive visualization.
-
+🔹 **Multi Y-Axis** Support: Effortlessly plot multiple series with independent Y-axes while maintaining alignment and scale integrity.
+🔹 Built on Plotly Graph Objects: Leverages Plotly’s powerful graph_objects module for **high-quality, interactive visualization**.
 🔹 Full Interactivity: Zoom, pan, hover, and toggle traces directly in the figure — no static images or re-renders needed.
-
-🔹 Fine Figure Control: Access and modify each trace, axis, and layout component with full Plotly compatibility.
-
-🔹 Dynamic Trace Management: Add, update, or restyle traces after creation — ideal for data exploration and dashboard integration.
+🔹 Fine Figure Control: Access and modify each trace, axis, and layout component with full **Plotly** compatibility.
+🔹 **Dynamic** Trace Management: Add, update, or restyle traces after creation — ideal for data exploration and dashboard integration.
 
 ![All Plots](images/5.png)
 
@@ -92,6 +85,7 @@ figure.get_figure().update_layout(width=1500, height=800)
 
 ```
 ![Combo Chart](images/4.png)
+
 
 
 
