@@ -3,10 +3,8 @@
 This script demonstrates how to visualize multiple Y-axes datasets from various domains — energy, oil and gas, weather, and combo plots — using the `polyY.plotly` module.  
 Each example defines X and Y variables, color schemes, and plotting styles, all unified in one workflow for easy demonstration.
 
-![Energy Consumption](images/1.png)
-![Oil and Gas Metrics](images/2.png)
-![Weather Metrics](images/3.png)
-![Combo Chart](images/4.png)
+
+
 
 # Example 1: Energy Industry Data
 ```python
@@ -23,7 +21,7 @@ for i in range(5):
     figure.add_trace(x, elect[ys[i]].to_list(), name=ys[i], kind="line", color=clrs[i])
 figure.get_figure().update_layout(width=1500, height=800)
 ```
-
+![Energy Consumption](images/1.png)
 
 
 # Example 2: Oil and Gas Data
@@ -41,6 +39,7 @@ for i in range(6):
     figure.add_trace(x, data[ys[i]].to_list(), name=ys[i], kind="line", color=clrs[i])
 figure.get_figure().update_layout(width=1500, height=800)
 ```
+![Oil and Gas Metrics](images/2.png)
 
 
 # Example 3: Weather and Forecast Data
@@ -58,6 +57,7 @@ for i in range(6):
     figure.add_trace(x, data[ys[i]].to_list(), name=ys[i], kind="line", color=clrs[i])
 figure.get_figure().update_layout(width=1500, height=800)
 ```
+![Weather Metrics](images/3.png)
 
 
 # Example 4: Combo Chart
@@ -77,5 +77,6 @@ for i in range(4):
 figure.get_figure().update_layout(width=1500, height=800)
 
 ```
+![Combo Chart](images/4.png)
 
 
