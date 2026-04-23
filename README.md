@@ -4,21 +4,20 @@
 MultiYPlot is a lightweight and intuitive Python library built on top of **Plotly** Graph Objects, designed to simplify the creation of multi–Y-axis interactive charts.With **PolyY**, you can easily visualize multiple datasets with different scales on the same figure — without losing clarity, interactivity, or control. The library provides a clean object-oriented interface to build, customize, and update complex figures in just a few lines of code.
 
 #### Key Features
-🔹 **Multi Y-Axis** Support: Effortlessly plot multiple series with independent Y-axes while maintaining alignment and scale integrity.
-🔹 Built on Plotly Graph Objects: Leverages Plotly’s powerful graph_objects module for **high-quality, interactive visualization**.
-🔹 Full Interactivity: Zoom, pan, hover, and toggle traces directly in the figure — no static images or re-renders needed.
-🔹 Fine Figure Control: Access and modify each trace, axis, and layout component with full **Plotly** compatibility.
-🔹 **Dynamic** Trace Management: Add, update, or restyle traces after creation — ideal for data exploration and dashboard integration.
+🔹 **Multi Y-Axis** Support: Effortlessly plot multiple series with independent Y-axes while maintaining alignment and scale integrity.  
+🔹 Built on Plotly Graph Objects: Leverages Plotly’s powerful graph_objects module for **high-quality, interactive visualization**.  
+🔹 Full Interactivity: Zoom, pan, hover, and toggle traces directly in the figure — no static images or re-renders needed.  
+🔹 Fine Figure Control: Access and modify each trace, axis, and layout component with full **Plotly** compatibility.  
+🔹 **Dynamic** Trace Management: Add, update, or restyle traces after creation — ideal for data exploration and dashboard integration.  
 
 ![All Plots](https://raw.githubusercontent.com/Nashat90/PolyY/main/images/5.png)
 
 
 #### New Enhancements:
 *As of Version 0.1.3 you can manually control right domain value (part of plotly subplot xaxis domain parameter)  
-Check the [Layout.xaxis domain](https://plotly.com/python/reference/layout/xaxis/#layout-xaxis-domain) for more info.  
-*Transparecy is supported and controlled via  opacity parameter, currently support for scatter, bar, line, step  
-*Legend is Visible Now   
-
+Check the [Layout.xaxis domain](https://plotly.com/python/reference/layout/xaxis/#layout-xaxis-domain) for more info.
+*Transparecy is supported and controlled via  opacity parameter, currently support for scatter, bar, line, step
+*Legend is Visible
 
 # How to Use it Effectively.
 The library is built as a single class interface to plotly via MakeFigure.It's built on OOP and it can be expanded with ease and new features can be implemented.Each line/element in the chart is added by using add_trace function (same function found in plotly.graph_objects module), each time this function is called, a single  trace will be added to the chart.
