@@ -16,8 +16,10 @@ MultiYPlot is a lightweight and intuitive Python library built on top of **Plotl
 #### New Enhancements:
 *As of Version 0.1.3 you can manually control right domain value (part of plotly subplot xaxis domain parameter)  
 Check the [Layout.xaxis domain](https://plotly.com/python/reference/layout/xaxis/#layout-xaxis-domain) for more info.
-*Transparecy is supported and controlled via  opacity parameter, currently support for scatter, bar, line, step
-*Legend is Visible
+*Transparecy is supported and controlled via  opacity parameter, currently support for scatter, bar, line, step  
+
+*Legend is Visible Now   
+
 
 # How to Use it Effectively.
 The library is built as a single class interface to plotly via MakeFigure.It's built on OOP and it can be expanded with ease and new features can be implemented.Each line/element in the chart is added by using add_trace function (same function found in plotly.graph_objects module), each time this function is called, a single  trace will be added to the chart.
