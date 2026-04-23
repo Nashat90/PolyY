@@ -16,9 +16,7 @@ MultiYPlot is a lightweight and intuitive Python library built on top of **Plotl
 #### New Enhancements:
 *As of Version 0.1.3 you can manually control right domain value (part of plotly subplot xaxis domain parameter)  
 Check the [Layout.xaxis domain](https://plotly.com/python/reference/layout/xaxis/#layout-xaxis-domain) for more info.  
-
 *Transparecy is supported and controlled via  opacity parameter, currently support for scatter, bar, line, step  
-
 *Legend is Visible Now   
 
 
